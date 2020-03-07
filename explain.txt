@@ -1,0 +1,7 @@
+First you have to convert the netmask or the slash into their binary form and then also convert the IP address to binary form
+followed by adding up or doing the Bitwise OR to the mask and IP address binary form to get the subnet binary form.
+Then eventually convert the binary mask, IP address and Subnet to decimal form.
+So to get the Minimum IP you have to add 1 to the subnet then
+to get the maximum IP you have to change all the zeroes of the binary form of the subnet into 1 then minus 1 .
+
+
